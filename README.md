@@ -268,4 +268,114 @@ GitHub é uma **plataforma online** para alojar repositórios Git e facilitar co
 
 ---
 
+# ⚙ Processo de Machine Learning
+
+
+## Definir o Problema
+
+
+## Obter os Dados
+
+
+## Preparação dos Dados
+
+
+## Treinar Modelo
+
+
+## Integrar Modelo
+
+
+## Monitorar Modelo
+
+
+
+# 🤖 Tipos de Tarefas para Machine Learning
+
+## Classificação: Por grupos
+  
+## Regressão: Liniar ou Não Linear
+
+## Previsão de Série Temporal: Expecifico para Datas
+
+## Pesquisa Visual Computacional: Expecifico para Imagens
+
+## NPL (Processo de Linguagem Natural): Expecifico para Textos
+
+
+# 🔍 Identificar a Fonte dos Dados e Formato
+Um exemplo de uma identificação e estruturação de dados: 
+  - Um dispositivo que fornece dados quanto a temperatura de uma máquina. Podese pegar os horários e datas que há variação na temperatura para entender se o dispositivo sofrido com essas alteração com anos de uso e se isso pode impactar em um problema futuro, prevendo uma manutenção preventiva antecipada.
+
+## Identificar a Fonte de Dados: 
+  - Identifica como o dado aparece (dados coletados).
+  - dispositvo, maquina, horario, data, temperatura.
+
+|DADOS|
+|------|
+| {"dispositivo":01,"maquina":MQ01, "time"0"2025-12-01T11:00","temperatura":20.4} |
+| {"dispositivo":01,"maquina":MQ01, "time"0"2025-12-01T11:30","temperatura":35} |
+| {"dispositivo":01,"maquina":MQ01, "time"0"2025-12-01T12:00","temperatura":20.2} |
+
+## Identificar o Formato de Dados Atual: 
+  - Estruturação dos dados (linhas e colunas)
+
+| DISPOSITIVO | MÁQUINA | DATA | HORÁRIO | TEMPERATURA |
+|------|----------|----------|----------|----------|
+|01 | MQ01 | 01-12-25 | 11:00 | 20.4 |
+|01 | MQ01 | 01-12-25 | 11:30 | 35 |
+|01 | MQ01 | 01-12-25 | 12:00 | 20.2 |
+
+
+## Identificar o Formato de Dados Desejado: 
+  - Filtro de dados que se deseja obter (não necessariamento precisa de todos os dados que um dispositivo fornece por exemplo)
+
+| DATA | HORÁRIO | TEMPERATURA |
+|------|----------|----------|
+| 01-12-25 | 11:00 | 20.4 |
+| 01-12-25 | 11:30 | 35 |
+| 01-12-25 | 12:00 | 20.2 |
+
+
+# Criar solução de Ingestão de Dados
+Forma de obter, estruturar e automatizar a formas de obter informações de forma a deixa disponível para se usar em Machine Learning
+
+## Extrair Dados Brutos: 
+  - Sistema CRM ou IoT (Telemetria)
+
+## Copiar e Transformar os Dados: 
+  - Criar um pipeline para obter e tratar os dados (Azure Synapse Analytics, Azure Databricks)
+
+## Armazenar os Dados:
+  - Os dados preparados são armazenaods em um Armazenamento de Blobs do Azure
+
+## Treinar modelo com Azure Machine Learning:
+  - Com base nos dados obtidos, tratados e armazenados. Os dados são treinados.
+
+# Aquitetura de MLOps
+
+## Instalação:
+  - Criar todos os recursos necessários para solução
+
+## Desenvolvimento de Modelo:
+  - Explorar e processar os dados para treinar e avaliar modelo (Loop Interno)
+  - Processo de experimentação
+  - Gerar modelo replicável
+
+## Integração Continua:
+  - Empacotar e registrar modelo
+  - Deploy
+  - End Point vai ser usado em tempo real ou lote
+
+## Implatação de Modelo:
+  - Implantar o modelos (Loop Externo)
+  - Implementação do modelo direto na aplicação
+
+## Implantação Conínua:
+  - Testar o modelo e promovê-lo ao ambiente de produção
+
+## Monitoramento: 
+  - Monitorar o desempenho do modelo e do ponto de extremidade
+  - Verificar parametros de acurácia
+
 
