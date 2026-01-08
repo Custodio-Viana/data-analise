@@ -9,6 +9,18 @@ Busco deixar documentado de forma mais clara possivel, tanto para uso pessoal (r
 - [Documentação Git Hub](https://docs.github.com/en/get-started
 )
 
+
+## Sumário
+
+- [Git e GitHub](#Git-e-GitHub)
+- [Dicionário dos Dados](#Dicionário-dos-Dados)
+- [Processo de Machine Learning](#-processo-de-machine-learning)
+- [Tipos de Tarefas para Machine Learning](#-tipos-de-tarefas-para-machine-learning)
+- [Visualização de Dados](#-visualização-de-dados)
+- [Arquitetura de MLOps](#aquitetura-de-mlops)
+- [Armazenar Dados](#armazenar-os-dados)
+
+
 # Git e GitHub
 
 ## Git
@@ -58,7 +70,7 @@ GitHub é uma **plataforma online** para alojar repositórios Git e facilitar co
 
 
 
-# 📘 Dicionário – Análise de Dados, Ciência de Dados e Tecnologia
+# 📘 Dicionário dos Dados
 
 
 ## 📂 Banco de Dados & SQL
