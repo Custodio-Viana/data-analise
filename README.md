@@ -13,7 +13,10 @@ Busco deixar documentado de forma mais clara possivel, tanto para uso pessoal (r
 ## Sumário
 
 - [Git e GitHub](#Git-e-GitHub)
-- [Dicionário dos Dados](#Dicionário-dos-Dados)
+- [Dicionário dos Dados](#-dicionário-dos-dados)
+  - [Analista de Dados](#-perfil-analista-de-dados)
+  - [Cientista de Dados](#-perfil-cientista-de-dados)
+  - [Engenheiro de Machine Learning](#-perfil-enheiro-de-machine-learning-ml-engineer)
 - [Processo de Machine Learning](#-processo-de-machine-learning)
 - [Tipos de Tarefas para Machine Learning](#-tipos-de-tarefas-para-machine-learning)
 - [Visualização de Dados](#-visualização-de-dados)
@@ -117,7 +120,7 @@ GitHub é uma **plataforma online** para alojar repositórios Git e facilitar co
 
 ---
 
-## 👨‍💼 Perfil: Data Analyst
+## 👨‍💼 Perfil: Analista de Dados
 
 **Foco:** Análise exploratória, métricas, visualização e suporte à tomada de decisão.
 
@@ -173,7 +176,7 @@ GitHub é uma **plataforma online** para alojar repositórios Git e facilitar co
 
 ---
 
-## 👩‍🔬 Perfil: Data Scientist
+## 👩‍🔬 Perfil: Cientista de Dados
 
 **Foco:** Modelagem, estatística, Machine Learning e experimentação.
 
@@ -222,7 +225,7 @@ GitHub é uma **plataforma online** para alojar repositórios Git e facilitar co
 
 ---
 
-## 🤖 Perfil: Machine Learning Engineer (ML Engineer)
+## 🤖 Perfil: Enheiro de Machine Learning (ML Engineer)
 
 **Foco:** Produção, escalabilidade, arquitetura e performance de modelos.
 
@@ -389,5 +392,6 @@ Forma de obter, estruturar e automatizar a formas de obter informações de form
 ## Monitoramento: 
   - Monitorar o desempenho do modelo e do ponto de extremidade
   - Verificar parametros de acurácia
+
 
 
