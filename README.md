@@ -22,7 +22,7 @@ Busco deixar documentado de forma mais clara possivel, tanto para uso pessoal (r
 - [Visualização de Dados](#-visualização-de-dados)
 - [Arquitetura de MLOps](#aquitetura-de-mlops)
 - [Armazenar Dados](#armazenar-os-dados)
-- [banco de Dados](#)
+- [banco de Dados](#-banco-de-dados)
 
 
 # Git e GitHub
@@ -395,8 +395,40 @@ Forma de obter, estruturar e automatizar a formas de obter informações de form
   - Verificar parametros de acurácia
 
 
-# 🗃Banco de Dados
+# 📚 Banco de Dados
+Um banco de dados é uma coleção organizada de dados logicamente relacionados.
 
-## SGBD
-Sistema de Gereciamento de Banco de Dados.
+Mini-mundo: Representa um aspecto do mundo real (ex: sistema escolar, hospitalar).
+
+Características: Deve ser coerente, possuir um propósito específico e usuários previamente definidos.
+
+## 🛠️ SGBD (Sistema de Gerenciamento de Banco de Dados)
+O SGBD é o software que facilita o processo de definição, construção, manipulação e compartilhamento de bancos de dados.
+
+Definição: Especificação de tipos e estruturas.
+
+Construção: Implementação da estrutura e inserção inicial dos dados.
+
+Manipulação: Consultas, atualizações e geração de relatórios.
+
+Exemplos: MySQL, PostgreSQL, Oracle, SQL Server, MongoDB.
+
+## 📉 Tipos de Abordagem
+Abordagem de Banco de Dados (SGBD)
+### Auto-descritiva: 
+O sistema contém uma descrição completa da estrutura (Metadados).
+
+### Independência de Dados: 
+O isolamento entre programas e dados permite alterar a estrutura sem afetar as aplicações.
+
+### Múltiplas Visões: 
+Diferentes usuários podem enxergar apenas os dados que lhes competem.
+
+### Controle de Redundância: 
+Evita a duplicação desnecessária de informações.
+
+### Abordagem de Arquivos (Tradicional)
+Cada programa define e gerencia seus próprios dados.
+Gera alta redundância e inconsistência.
+Forte dependência entre o código do programa e a estrutura física do arquivo.
 
