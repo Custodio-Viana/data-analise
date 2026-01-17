@@ -22,6 +22,7 @@ Busco deixar documentado de forma mais clara possivel, tanto para uso pessoal (r
 - [Visualização de Dados](#-visualização-de-dados)
 - [Arquitetura de MLOps](#aquitetura-de-mlops)
 - [Armazenar Dados](#armazenar-os-dados)
+- [banco de Dados](#)
 
 
 # Git e GitHub
@@ -394,4 +395,8 @@ Forma de obter, estruturar e automatizar a formas de obter informações de form
   - Verificar parametros de acurácia
 
 
+# 🗃Banco de Dados
+
+## SGBD
+Sistema de Gereciamento de Banco de Dados.
 
