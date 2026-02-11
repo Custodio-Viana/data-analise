@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But keep the SQL folder
+!/SQL/
+!/SQL/**
+
+# Keep the .gitignore file itself
+!.gitignore
